@@ -1,0 +1,28 @@
+server:
+  port: 9191
+  
+  
+spring:
+  h2:
+    console:
+      enabled: true
+  application:
+    name: PAYMENT-SERVICE
+    
+logging:
+  file:
+    path: /Users/dhanabatisenjam/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/EmployeeManagement/microservices.log
+    
+
+#eureka:
+#  client:
+#    enabled: true
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+#    
+#  instance:
+#    hostname: localhost
+
+# directiong to cloud-config service port to get the configuration properties
